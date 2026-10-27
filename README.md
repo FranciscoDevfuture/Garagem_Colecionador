@@ -6,10 +6,8 @@ Um catálogo web simples, elegante e responsivo construído para organizar e exi
 
 ## 📸 Demonstração
 
-*(Tire um print da tela do seu site e substitua a imagem abaixo)*
+<img width="1734" height="812" alt="image" src="https://github.com/user-attachments/assets/f27f42cd-d422-419e-a77a-de3670204e1d" />
 
-![Demonstração do Projeto](<img width="1734" height="812" alt="image" src="https://github.com/user-attachments/assets/c1e11310-9eca-4677-a0bd-930460844798" />
-)
 
 ---
 
@@ -40,3 +38,8 @@ colecao-de-carrinhos/
 ├── style.css         # Estilização e design da aplicação
 ├── README.md         # Documentação do projeto
 └── img/              # Diretório contendo as fotos dos carrinhos
+
+👨‍👦 Autoria
+Projeto desenvolvido por Francisco  & Lucas Mendonça Dos Santos.
+
+⭐ Se você gostou deste projeto, sinta-se à vontade para deixar uma estrela no repositório!
