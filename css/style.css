@@ -1,0 +1,160 @@
+/* Configurações Globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #121212; /* Fundo escuro estilo garagem moderna */
+  color: #e0e0e0;
+  line-height: 1.5;
+}
+
+/* Cabeçalho */
+.header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #1f1f1f 0%, #0d0d0d 100%);
+  border-bottom: 3px solid #ff4757;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-color: #113cc9;
+    border-width: 4px;
+
+}
+
+header img:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 12px 24px #4035dff6;
+    border-color: blue;
+
+
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: red;
+  margin-bottom: 8px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header p {
+  color: #a0a0a0;
+  font-size: 1.3rem;
+}
+
+/* Container Principal */
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Grade Responsiva de Cards */
+.grid-carrinhos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+/* Design do Card */
+.card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 5px solid #2d2d2d;
+}
+
+/* Efeito ao passar o mouse no card */
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px #4035dff6;
+  border-color: blue;
+
+}
+
+/* Imagem do Carrinho */
+.card-imagem {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: #2a2a2a;
+}
+
+.card-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta a imagem sem distorcer */
+}
+
+/* Badges / Selos nas Fotos  favoritos*/
+.badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: white;
+  color: black;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.badge.raro {
+  background-color: #ffa502;
+}
+
+/* Conteúdo de Informações */
+.card-conteudo {
+  padding: 20px;
+}
+
+.card-conteudo h2 {
+  font-size: 1.3rem;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.info-grupo {
+  background-color: #252525;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  margin-bottom: 12px;
+}
+
+.info-grupo p {
+  margin-bottom: 4px;
+  color: #cccccc;
+}
+
+.info-grupo p:last-child {
+  margin-bottom: 0;
+}
+
+.info-grupo strong {
+  color: #ff4757;
+}
+
+.descricao {
+  font-size: 0.85rem;
+  color: #999999;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #666666;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
